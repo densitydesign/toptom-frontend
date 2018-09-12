@@ -1,0 +1,45 @@
+
+:root {
+	/* -----------------------------
+	/ -height variables must be equal
+	/ to variables in parameters.js.
+	/ ------------------------------ */
+	--header-height: 50px;
+	--tool-bar-height: 50px;   
+	--time-line-height: 70px;
+	--tooltip-width: 45px;
+	--calendar-cell-width: 80px;
+	--calendar-cell-height: 70px;
+	/* ----------------------------- */
+	--documents-height: 80%;
+	--documents-width: 80%;
+	--header-width: 100vw;
+	--tool-bar-width: 100vw;
+	--time-line-width: 100vw;
+	--anomalies-drop-down-width: 180px;
+	--sources-drop-down-width: 130px;
+	--time-interval-drop-down-width: 130px;
+	--date-drop-down-width: 200px;
+	--drop-down-row-height: 20px;
+	--dropdown-calendar-cell-width: 27px;
+	--dropdown-calendar-cell-height: 27px;
+	--header-background: #fff;
+	--error-background: #ff3e59;
+	--tooltips-background: #fafbff;
+--tooltips-border: 1px solid #000;
+	--tool-bar-background: white;
+	--documents-background: white;
+	--text-color: black;
+	--text-color-light: #999;
+	--anomaly-color: #fc1437;
+	--gdelt-color: #253d66;
+	--twitter-color: #7f9af6;
+	--reddit-color: #ff9a7b;
+	--loader-color: #000;
+
+	--anomaly-3-color: #ff3e59;
+	--anomaly-2-color: #ff7482;
+	--anomaly-1-color: #ffb5c1;
+	--anomaly-0-color: #fff;
+}
+}

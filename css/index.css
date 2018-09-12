@@ -1,0 +1,207 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 13px;
+	color: var(--text-color);
+	letter-spacing: 0.01em;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	background-color:#fafbff;
+}
+
+button:focus {
+	outline: none;
+}
+
+button:hover {
+	cursor:pointer;
+}
+
+.tool-bar {
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+
+.main-view {
+	position: absolute;
+	width: 100vw;
+	height: auto;
+	visibility: hidden;
+	align-content:center;
+}
+
+.visible {
+	visibility: visible !important;
+}
+
+.tool-bar h1 {
+	font-size: 0.9em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.dropdown {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	z-index: 100;
+	background-color: white;
+}
+.dropdown div {
+	display: flex;
+	justify-content: space-between;
+}
+.dropdown p {
+	margin: 0;
+	padding: 0;
+}
+.dropdown p,
+.dropdown li {
+	display: flex;
+	align-items: center;
+	font-size: 0.9rem;
+	background-color: white;
+}
+
+.dropdown p, .dropdown span {
+	padding-left: 5px;
+	text-transform: uppercase;
+}
+.dropdown button {
+	display: block;
+	width: calc(var(--drop-down-row-height) * 1.2);
+	height: var(--drop-down-row-height);
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-left: 1.5px solid black;
+	background: white;
+}
+
+
+.dropdown ul {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 87px;
+
+}
+
+.dropdown li:hover{
+	cursor: pointer;
+	background-color:#fafbff;
+}
+.dropdown div,
+.dropdown .row {
+	flex: 0 0 auto;
+}
+.dropdown li.row {
+	height: var(--drop-down-row-height);
+}
+.dropdown li,
+.dropdown > div {
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.dropdown > div:first-child {
+	border-top: 2px solid black;
+}
+.dropdown .hidden {
+	display: none;
+}
+
+.dropdown-calendar{
+	background-color: white;
+}
+
+.calendar header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.calendar header .week{
+	border-bottom:none;
+}
+
+.calendar ul {
+	position: relative;
+	top: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.calendar button {
+	border: 0;
+	background-color: transparent;
+}
+.calendar .week {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.calendar .week > li {
+	flex: 0 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 400;
+}
+.calendar .day-names li {
+	color: var(--text-color-light);
+	border-bottom:none;
+}
+.dropdown .calendar .calendar-header {
+	font-size: 2rem;
+	font-weight: 400;
+	letter-spacing: 0.0em;
+	background-color: white;
+	border-bottom:1.5px solid black;
+	padding:1%;
+}
+.calendar .calendar-header > button:first-child {
+	padding-left: 20px;
+}
+
+
+g .background-vertices{
+	fill:#fff;
+}
+
+.vertex:hover{
+	cursor: pointer;
+}
+
+/*ADD TOOLTIP STYLE*/
+
+.tooltip-cluster{
+	position:absolute;
+	border:1.5px solid black;
+	padding:3px;
+	background-color:#fafbff;
+	text-transform: uppercase;
+	transition:2ms;
+	pointer-events: none;
+}
+
+#tooltip-container:hover{
+	cursor:pointer;
+}
+
+.tooltip-cluster :hover{
+	cursor:pointer;
+}
