@@ -1,5 +1,5 @@
 {
-  "name": "TopTom frontend",
+  "name": "toptom-frontend",
   "version": "0.0.1",
   "author": {
     "name": "DensityDesign Research Lab",
@@ -11,7 +11,7 @@
   "description": "",
   "main": "main.js",
   "module": "dist/bundle.es.js",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "homepage": "https://github.com/densitydesign/toptom-frontend",
   "repository": {
     "url": "https://github.com/densitydesign/toptom-frontend.git",

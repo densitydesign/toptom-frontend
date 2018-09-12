@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://jarvis.isi.it/api/jarvis';
+const API_BASE_URL = ''; //insert here the APIs URL
 
 const querystringParams = obj =>
 	Object
