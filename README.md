@@ -1,5 +1,7 @@
 # TopTom User Interface
 
+![alt text](https://github.com/densitydesign/toptom-frontend/raw/master/img/toptom_cover.png "TopTom over image")
+
 This repository contains source code and instructions to build the TopTom User Interface.   
 The methodology used for the topic modeling pipeline and the UI design principles is detailed in this publication:
 
